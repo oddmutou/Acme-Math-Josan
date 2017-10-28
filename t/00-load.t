@@ -4,11 +4,12 @@ use strict;
 use warnings;
 use Test::More;
 
-plan tests => 3;
+plan tests => 4;
 
 BEGIN {
     use_ok( 'Acme::Math::Josan' ) || print "Bail out!\n";
-    warn josan(1, 2);
+
+    is(josan(2, 1), 2);
 
     my $count = 0;
     for (1 .. 100000) {
