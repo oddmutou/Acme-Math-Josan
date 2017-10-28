@@ -42,7 +42,7 @@ Do josan (B<乗算> = Multiplication) or josan (B<除算> = Division ).
 
 =head2 josan($num1, $num2)
 
-C<$num1> and C<$num2> is numeric.
+C<$num1> and C<$num2> are numerics.
 
 =head1 AUTHOR
 
